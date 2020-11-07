@@ -1,0 +1,36 @@
+:root {
+  /* colors */
+  --lightblue: #5E56E7;
+  --darkwhite: #F8F7FF;
+  --greylight: #F0F0F6;
+  --greymedium: #A0A0A0;
+  --greydark : #333333;
+  /* fonts */
+}
+
+@font-face {
+  font-family: "Montserat";
+  src: local('Montserat'), url(./fonts/Montserrat-Regular.ttf) format('truetype');
+}
+
+body {
+  font-family: "Montserat";
+  font-size: 16px;
+  color: var(--greydark) ;
+}
+
+h1 h2 {
+  font-weight:  600;
+  color: var(--lightblue);
+}
+
+h1 {
+  padding-top:40px;
+  padding-bottom:20px;
+  font-size: 48px;
+}
+
+h2 {
+  font-size: 30px;
+  color: var(--lightblue);
+}
